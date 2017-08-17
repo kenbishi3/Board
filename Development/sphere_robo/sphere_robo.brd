@@ -600,6 +600,8 @@ design rules under a new name.</description>
 <element name="R15" library="generic" package="SMD1608_REDUCED" value="" x="-44.45" y="-138.43"/>
 <element name="C9" library="generic" package="PANASONIC_D" value="" x="-38" y="-143"/>
 <element name="C10" library="generic" package="PANASONIC_D" value="" x="-38" y="-150"/>
+<element name="R16" library="generic" package="SMD1608_REDUCED" value="" x="-45" y="-156"/>
+<element name="R17" library="generic" package="SMD1608_REDUCED" value="" x="-45" y="-159"/>
 </elements>
 <signals>
 <signal name="GND">

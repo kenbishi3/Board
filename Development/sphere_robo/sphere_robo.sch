@@ -1691,6 +1691,8 @@ e.g. Nichicon F93 series Tantalum Cap. A-case</description>
 <part name="R15" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
 <part name="C9" library="generic" deviceset="CAPACITOR-POL" device="PANASONIC_D"/>
 <part name="C10" library="generic" deviceset="CAPACITOR-POL" device="PANASONIC_D"/>
+<part name="R16" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
+<part name="R17" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
 </parts>
 <sheets>
 <sheet>
@@ -1770,6 +1772,8 @@ e.g. Nichicon F93 series Tantalum Cap. A-case</description>
 <instance part="R15" gate="G$1" x="238.76" y="101.6"/>
 <instance part="C9" gate="G$1" x="40.64" y="53.34"/>
 <instance part="C10" gate="G$1" x="50.8" y="53.34"/>
+<instance part="R16" gate="G$1" x="15.24" y="43.18"/>
+<instance part="R17" gate="G$1" x="25.4" y="43.18"/>
 </instances>
 <busses>
 </busses>
