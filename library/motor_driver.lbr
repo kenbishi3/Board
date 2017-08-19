@@ -13,7 +13,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -57,73 +57,56 @@
 </layers>
 <library>
 <packages>
-<package name="ABLS7M">
-<smd name="P$1" x="-2.75" y="0" dx="1.2" dy="3.5" layer="1" rot="R90"/>
-<smd name="P$2" x="2.75" y="0" dx="1.2" dy="3.5" layer="1" rot="R90"/>
-<wire x1="3.5" y1="-2.05" x2="-3.5" y2="-2.05" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="2.05" x2="3.5" y2="2.05" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="2.05" x2="-3.5" y2="1.05" width="0.127" layer="21"/>
-<wire x1="3.5" y1="2.05" x2="3.5" y2="1.05" width="0.127" layer="21"/>
-<wire x1="3.5" y1="-1.05" x2="3.5" y2="-2.05" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-2.05" x2="-3.5" y2="-1.05" width="0.127" layer="21"/>
-<text x="-3.15" y="2.45" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-</package>
-<package name="ABM2">
-<smd name="1" x="-3.25" y="0" dx="2.5" dy="3" layer="1"/>
-<smd name="2" x="3.25" y="0" dx="2.5" dy="3" layer="1"/>
-<wire x1="-4" y1="1.7" x2="-4" y2="1.9" width="0.127" layer="21"/>
-<wire x1="-4" y1="1.9" x2="-3.7" y2="2.2" width="0.127" layer="21"/>
-<wire x1="-3.7" y1="2.2" x2="3.7" y2="2.2" width="0.127" layer="21"/>
-<wire x1="3.7" y1="2.2" x2="4" y2="1.9" width="0.127" layer="21"/>
-<wire x1="4" y1="1.9" x2="4" y2="1.7" width="0.127" layer="21"/>
-<wire x1="-4" y1="-1.7" x2="-4" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="-4" y1="-1.9" x2="-3.7" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="-3.7" y1="-2.2" x2="3.7" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="3.7" y1="-2.2" x2="4" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="4" y1="-1.9" x2="4" y2="-1.7" width="0.127" layer="21"/>
-<text x="-2" y="2.5" size="0.8128" layer="21" font="vector" rot="SR0">&gt;NAME</text>
+<package name="SOP-8">
+<smd name="2" x="-2.85" y="0.635" dx="1.1" dy="0.76" layer="1"/>
+<smd name="1" x="-2.85" y="1.905" dx="1.1" dy="0.76" layer="1"/>
+<smd name="3" x="-2.85" y="-0.635" dx="1.1" dy="0.76" layer="1"/>
+<smd name="4" x="-2.85" y="-1.905" dx="1.1" dy="0.76" layer="1"/>
+<smd name="7" x="2.85" y="0.635" dx="1.1" dy="0.76" layer="1"/>
+<smd name="8" x="2.85" y="1.905" dx="1.1" dy="0.76" layer="1"/>
+<smd name="6" x="2.85" y="-0.635" dx="1.1" dy="0.76" layer="1"/>
+<smd name="5" x="2.85" y="-1.905" dx="1.1" dy="0.76" layer="1"/>
+<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-2.5" x2="2.2" y2="-2.5" width="0.127" layer="21"/>
+<circle x="-2.9" y="3" radius="0.282840625" width="0.127" layer="21"/>
+<text x="-1.9" y="2.8" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
-<symbol name="CRYSTAL">
-<pin name="P$1" x="0" y="5.08" visible="off" length="short" rot="R270"/>
-<pin name="P$2" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
-<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-4.318" y1="-1.27" x2="-4.318" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-4.318" y1="1.27" x2="4.318" y2="1.27" width="0.254" layer="94"/>
-<wire x1="4.318" y1="1.27" x2="4.318" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="4.318" y1="-1.27" x2="-4.318" y2="-1.27" width="0.254" layer="94"/>
-<text x="-5.08" y="5.08" size="0.8128" layer="95" font="vector">&gt;NAME</text>
+<symbol name="BD6211">
+<pin name="OUT1" x="-15.24" y="5.08" length="middle"/>
+<pin name="VCC@1" x="-15.24" y="2.54" length="middle"/>
+<pin name="VCC@2" x="-15.24" y="0" length="middle"/>
+<pin name="FIN" x="-15.24" y="-2.54" length="middle"/>
+<pin name="RIN" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="VREF" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="OUT2" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="5.08" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="0.8128" layer="95" font="vector">&gt;NAME</text>
+<text x="0" y="10.16" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ABLS7M" prefix="X">
+<deviceset name="BD6211" prefix="IC">
+<description>ROHM Motor driver&lt;br&gt;</description>
 <gates>
-<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+<gate name="G$1" symbol="BD6211" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="ABLS7M">
+<device name="F" package="SOP-8">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ABM2" prefix="X">
-<description>ABRACON Crystal&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ABM2">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="FIN" pad="4"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="OUT1" pad="1"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="RIN" pad="5"/>
+<connect gate="G$1" pin="VCC@1" pad="2"/>
+<connect gate="G$1" pin="VCC@2" pad="3"/>
+<connect gate="G$1" pin="VREF" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
