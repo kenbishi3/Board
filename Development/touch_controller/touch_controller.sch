@@ -1270,8 +1270,8 @@ Triaxial Acceleraration Sensor&lt;br&gt;
 <parts>
 <part name="U1" library="com_module" deviceset="RN4020" device="-V/RM123"/>
 <part name="IC1" library="micro_controller" deviceset="LPC812M101JDH16" device=""/>
-<part name="C1" library="generic" deviceset="CAPACITOR" device="1608_REDUCED"/>
-<part name="C2" library="generic" deviceset="CAPACITOR" device="1608_REDUCED"/>
+<part name="C1" library="generic" deviceset="CAPACITOR" device="1608_REDUCED" value="0.1u"/>
+<part name="C2" library="generic" deviceset="CAPACITOR" device="1608_REDUCED" value="0.1u"/>
 <part name="+3V1" library="supply" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply" deviceset="GND" device=""/>
@@ -1298,35 +1298,35 @@ Triaxial Acceleraration Sensor&lt;br&gt;
 <part name="IC3" library="acceleration_sensor" deviceset="BMA250E" device=""/>
 <part name="+3V4" library="supply" deviceset="+3V3" device=""/>
 <part name="GND9" library="supply" deviceset="GND" device=""/>
-<part name="C3" library="generic" deviceset="CAPACITOR" device="1608_REDUCED"/>
-<part name="C4" library="generic" deviceset="CAPACITOR" device="1608_REDUCED"/>
+<part name="C3" library="generic" deviceset="CAPACITOR" device="1608_REDUCED" value="0.1u"/>
+<part name="C4" library="generic" deviceset="CAPACITOR" device="1608_REDUCED" value="0.1u"/>
 <part name="+3V5" library="supply" deviceset="+3V3" device=""/>
 <part name="GND10" library="supply" deviceset="GND" device=""/>
 <part name="GND11" library="supply" deviceset="GND" device=""/>
 <part name="GND12" library="supply" deviceset="GND" device=""/>
 <part name="+3V6" library="supply" deviceset="+3V3" device=""/>
 <part name="GND13" library="supply" deviceset="GND" device=""/>
-<part name="R1" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R2" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
+<part name="R1" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="10k"/>
+<part name="R2" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="10k"/>
 <part name="+3V7" library="supply" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply" deviceset="+3V3" device=""/>
 <part name="IC2" library="touch_sensor" deviceset="CY8C201A0" device="-SX2I"/>
 <part name="GND14" library="supply" deviceset="GND" device=""/>
 <part name="+3V9" library="supply" deviceset="+3V3" device=""/>
 <part name="GND15" library="supply" deviceset="GND" device=""/>
-<part name="C5" library="generic" deviceset="CAPACITOR" device="1608_REDUCED"/>
-<part name="C6" library="generic" deviceset="CAPACITOR" device="1608_REDUCED"/>
+<part name="C5" library="generic" deviceset="CAPACITOR" device="1608_REDUCED" value="0.1u"/>
+<part name="C6" library="generic" deviceset="CAPACITOR" device="1608_REDUCED" value="0.1u"/>
 <part name="GND16" library="supply" deviceset="GND" device=""/>
-<part name="R3" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R4" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R5" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R6" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R7" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R8" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R9" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R10" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R11" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R12" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
+<part name="R3" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="0"/>
+<part name="R4" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="0"/>
+<part name="R5" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="0"/>
+<part name="R6" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="0"/>
+<part name="R7" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="0"/>
+<part name="R8" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="0"/>
+<part name="R9" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="0"/>
+<part name="R10" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="0"/>
+<part name="R11" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="0"/>
+<part name="R12" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="10k"/>
 <part name="+3V10" library="supply" deviceset="+3V3" device=""/>
 <part name="LED1" library="generic" deviceset="LED" device="1608_REDUCED"/>
 <part name="LED2" library="generic" deviceset="LED" device="1608_REDUCED"/>
@@ -1334,15 +1334,15 @@ Triaxial Acceleraration Sensor&lt;br&gt;
 <part name="GND17" library="supply" deviceset="GND" device=""/>
 <part name="GND18" library="supply" deviceset="GND" device=""/>
 <part name="GND19" library="supply" deviceset="GND" device=""/>
-<part name="R13" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R14" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R15" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R16" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R17" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
+<part name="R13" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="100"/>
+<part name="R14" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="100"/>
+<part name="R15" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="100"/>
+<part name="R16" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="10k"/>
+<part name="R17" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="10k"/>
 <part name="+3V11" library="supply" deviceset="+3V3" device=""/>
 <part name="GND20" library="supply" deviceset="GND" device=""/>
-<part name="R18" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
-<part name="R19" library="generic" deviceset="RESISTOR" device="1608_REDUCED"/>
+<part name="R18" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="10k"/>
+<part name="R19" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="10k"/>
 <part name="GND21" library="supply" deviceset="GND" device=""/>
 <part name="GND22" library="supply" deviceset="GND" device=""/>
 <part name="+3V12" library="supply" deviceset="+3V3" device=""/>

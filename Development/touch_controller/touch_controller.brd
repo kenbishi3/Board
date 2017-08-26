@@ -551,11 +551,11 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="generic" package="SMD1608_REDUCED" value="" x="45.6" y="27.91" smashed="yes" rot="R90">
+<element name="C1" library="generic" package="SMD1608_REDUCED" value="0.1u" x="45.6" y="27.91" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.05" y="27.41" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="47.25" y="27.11" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C2" library="generic" package="SMD1608_REDUCED" value="" x="23.2" y="22.4" rot="R180"/>
+<element name="C2" library="generic" package="SMD1608_REDUCED" value="0.1u" x="23.2" y="22.4" rot="R180"/>
 <element name="IC1" library="micro_controller" package="TSSOP16" value="LPC812M101JDH16" x="23.56" y="17.61"/>
 <element name="SW1" library="switch" package="SK-12D01-VG4" value="SK-12D01-VG4" x="32.901709375" y="4.12385" rot="R20"/>
 <element name="U1" library="com_module" package="RN4020" value="RN4020-V/RM123" x="32.5" y="17.64" smashed="yes">
@@ -581,37 +581,37 @@ design rules under a new name.</description>
 <element name="IC3" library="acceleration_sensor" package="LGA-12" value="BMA250E" x="25" y="28.5" smashed="yes">
 <attribute name="NAME" x="24.05" y="26.25" size="0.8128" layer="21" font="vector"/>
 </element>
-<element name="C3" library="generic" package="SMD1608_REDUCED" value="" x="27.4" y="28.5" smashed="yes" rot="R90">
+<element name="C3" library="generic" package="SMD1608_REDUCED" value="0.1u" x="27.4" y="28.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.85" y="27.9" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="29.05" y="27.7" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C4" library="generic" package="SMD1608_REDUCED" value="" x="21.5" y="28.2" smashed="yes" rot="R180">
+<element name="C4" library="generic" package="SMD1608_REDUCED" value="0.1u" x="21.5" y="28.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="20.9" y="28.75" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="22.3" y="29.85" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R1" library="generic" package="SMD1608_REDUCED" value="" x="22.6" y="32.8" rot="R270"/>
-<element name="R2" library="generic" package="SMD1608_REDUCED" value="" x="20.6" y="32.8" rot="R270"/>
+<element name="R1" library="generic" package="SMD1608_REDUCED" value="10k" x="22.6" y="32.8" rot="R270"/>
+<element name="R2" library="generic" package="SMD1608_REDUCED" value="10k" x="20.6" y="32.8" rot="R270"/>
 <element name="IC2" library="touch_sensor" package="SOIC-16" value="CY8C201A0-SX2I" x="13.5" y="25" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.2" y="24.3" size="0.8128" layer="25" font="vector" rot="SR90"/>
 </element>
-<element name="C5" library="generic" package="SMD1608_REDUCED" value="" x="17.9" y="19.6" rot="R270"/>
-<element name="C6" library="generic" package="SMD1608_REDUCED" value="" x="16.7" y="30.5" rot="R270"/>
-<element name="R3" library="generic" package="SMD1608_REDUCED" value="" x="25" y="45.1" rot="R90"/>
-<element name="R4" library="generic" package="SMD1608_REDUCED" value="" x="38.2" y="41.3"/>
-<element name="R5" library="generic" package="SMD1608_REDUCED" value="" x="48" y="21.5" rot="R90"/>
-<element name="R6" library="generic" package="SMD1608_REDUCED" value="" x="38.3" y="8.7" smashed="yes">
+<element name="C5" library="generic" package="SMD1608_REDUCED" value="0.1u" x="17.9" y="19.6" rot="R270"/>
+<element name="C6" library="generic" package="SMD1608_REDUCED" value="0.1u" x="16.7" y="30.5" rot="R270"/>
+<element name="R3" library="generic" package="SMD1608_REDUCED" value="0" x="25" y="45.1" rot="R90"/>
+<element name="R4" library="generic" package="SMD1608_REDUCED" value="0" x="38.2" y="41.3"/>
+<element name="R5" library="generic" package="SMD1608_REDUCED" value="0" x="48" y="21.5" rot="R90"/>
+<element name="R6" library="generic" package="SMD1608_REDUCED" value="0" x="38.3" y="8.7" smashed="yes">
 <attribute name="NAME" x="37.6" y="7.25" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="37.5" y="7.05" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="R7" library="generic" package="SMD1608_REDUCED" value="" x="24.1" y="5.7"/>
-<element name="R8" library="generic" package="SMD1608_REDUCED" value="" x="8.8" y="11.7" rot="R270"/>
-<element name="R9" library="generic" package="SMD1608_REDUCED" value="" x="4.9" y="25" rot="R180"/>
-<element name="R10" library="generic" package="SMD1608_REDUCED" value="" x="8.8" y="37.5" rot="R90"/>
-<element name="R11" library="generic" package="SMD1608_REDUCED" value="" x="21.5" y="25.6" smashed="yes">
+<element name="R7" library="generic" package="SMD1608_REDUCED" value="0" x="24.1" y="5.7"/>
+<element name="R8" library="generic" package="SMD1608_REDUCED" value="0" x="8.8" y="11.7" rot="R270"/>
+<element name="R9" library="generic" package="SMD1608_REDUCED" value="0" x="4.9" y="25" rot="R180"/>
+<element name="R10" library="generic" package="SMD1608_REDUCED" value="0" x="8.8" y="37.5" rot="R90"/>
+<element name="R11" library="generic" package="SMD1608_REDUCED" value="0" x="21.5" y="25.6" smashed="yes">
 <attribute name="NAME" x="20.5" y="24.15" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="20.7" y="23.95" size="0.8128" layer="27" font="vector"/>
 </element>
-<element name="R12" library="generic" package="SMD1608_REDUCED" value="" x="23.5" y="13" rot="R180"/>
+<element name="R12" library="generic" package="SMD1608_REDUCED" value="10k" x="23.5" y="13" rot="R180"/>
 <element name="LED1" library="generic" package="LED1608_REDUCED" value="" x="31" y="16.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.7" y="15.85" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="31.8" y="17.85" size="0.8128" layer="27" font="vector" rot="R180"/>
@@ -624,28 +624,28 @@ design rules under a new name.</description>
 <attribute name="NAME" x="26.7" y="12.95" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="31.8" y="14.95" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R13" library="generic" package="SMD1608_REDUCED" value="" x="34.4" y="16.2" smashed="yes" rot="R180">
+<element name="R13" library="generic" package="SMD1608_REDUCED" value="100" x="34.4" y="16.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="36" y="15.85" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="35.2" y="17.85" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R14" library="generic" package="SMD1608_REDUCED" value="" x="34.4" y="14.8" smashed="yes" rot="R180">
+<element name="R14" library="generic" package="SMD1608_REDUCED" value="100" x="34.4" y="14.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="36" y="14.45" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="35.2" y="16.45" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R15" library="generic" package="SMD1608_REDUCED" value="" x="34.4" y="13.3" smashed="yes" rot="R180">
+<element name="R15" library="generic" package="SMD1608_REDUCED" value="100" x="34.4" y="13.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="36" y="12.95" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="35.2" y="14.95" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R16" library="generic" package="SMD1608_REDUCED" value="" x="30.9" y="19.1" smashed="yes" rot="R270">
+<element name="R16" library="generic" package="SMD1608_REDUCED" value="10k" x="30.9" y="19.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.35" y="18.2" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="29.25" y="19.9" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R17" library="generic" package="SMD1608_REDUCED" value="" x="30.9" y="22.4" smashed="yes" rot="R270">
+<element name="R17" library="generic" package="SMD1608_REDUCED" value="10k" x="30.9" y="22.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.25" y="21.5" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="29.25" y="23.2" size="0.8128" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R18" library="generic" package="SMD1608_REDUCED" value="" x="41.3" y="15.3" rot="R90"/>
-<element name="R19" library="generic" package="SMD1608_REDUCED" value="" x="45.5" y="21.3" smashed="yes" rot="R90">
+<element name="R18" library="generic" package="SMD1608_REDUCED" value="10k" x="41.3" y="15.3" rot="R90"/>
+<element name="R19" library="generic" package="SMD1608_REDUCED" value="10k" x="45.5" y="21.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.95" y="17.7" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="47.15" y="20.5" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
