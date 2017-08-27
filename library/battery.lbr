@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -211,8 +211,8 @@ BAT-HLD-001&lt;br&gt;
 <wire x1="-5" y1="7.5" x2="5" y2="7.5" width="0.127" layer="51"/>
 </package>
 <package name="CH004-2032LF">
-<smd name="+" x="-14.65" y="0" dx="4" dy="3" layer="1" rot="R90"/>
-<smd name="-" x="14.65" y="0" dx="4" dy="3" layer="1" rot="R90"/>
+<smd name="+" x="-14.65" y="0" dx="4.4" dy="3.4" layer="1" rot="R90"/>
+<smd name="-" x="14.65" y="0" dx="4.4" dy="3.4" layer="1" rot="R90"/>
 <wire x1="-6" y1="8" x2="6" y2="8" width="0.127" layer="21"/>
 <wire x1="-6" y1="-8" x2="-4.75" y2="-8" width="0.127" layer="21"/>
 <wire x1="4.75" y1="-8" x2="6" y2="-8" width="0.127" layer="21"/>
