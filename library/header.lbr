@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3236,7 +3236,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="M02">
+<deviceset name="M02" prefix="JP">
 <gates>
 <gate name="G$1" symbol="M02" x="0" y="0"/>
 </gates>
@@ -3580,7 +3580,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="M03X2">
+<deviceset name="M03X2" prefix="J">
 <gates>
 <gate name="G$1" symbol="M03X2" x="0" y="0"/>
 </gates>
