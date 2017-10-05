@@ -2428,10 +2428,10 @@ Io: 100mA</description>
 <part name="GND1" library="supply" deviceset="GND" device=""/>
 <part name="C21" library="generic" deviceset="CAPACITOR-POL" device="PANASONIC_D"/>
 <part name="C28" library="generic" deviceset="CAPACITOR" device="1608_REDUCED" value="0.1u"/>
-<part name="R16" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="10k"/>
-<part name="R17" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="10k"/>
+<part name="R16" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="47"/>
+<part name="R17" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="47"/>
 <part name="C29" library="generic" deviceset="CAPACITOR" device="1608_REDUCED" value="0.1u"/>
-<part name="R18" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="10k"/>
+<part name="R18" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="47"/>
 <part name="C30" library="generic" deviceset="CAPACITOR" device="1608_REDUCED" value="0.1u"/>
 <part name="GND43" library="supply" deviceset="GND" device=""/>
 </parts>
