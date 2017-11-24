@@ -101,7 +101,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BMA250E">
+<deviceset name="BMA250E" prefix="IC">
 <description>&lt;b&gt;Bosch&lt;/b&gt;&lt;br&gt;
 Triaxial Acceleraration Sensor&lt;br&gt;
 2g,4g,8g,16g&lt;br&gt;
