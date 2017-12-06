@@ -1513,7 +1513,7 @@ akizuki: P-08789</description>
 <part name="SW1" library="switch" deviceset="SK-12D01-VG4" device=""/>
 <part name="J1" library="header" deviceset="M03X2" device="STD"/>
 <part name="+3V311" library="supply" deviceset="+3V3" device=""/>
-<part name="R6" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="10k"/>
+<part name="R6" library="generic" deviceset="RESISTOR" device="1608_REDUCED" value="100"/>
 <part name="JP4" library="header" deviceset="M06" device="NOSILK"/>
 <part name="GND14" library="supply" deviceset="GND" device=""/>
 <part name="+3V314" library="supply" deviceset="+3V3" device=""/>
